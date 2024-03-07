@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+  border: 5px solid gray;
+  border-radius: 10px;
+  padding: 30px;
+  width: 350px;
+  margin-inline: auto;
+}
+
+.inputContainer {
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+}
+
+.inputContainer label {
+  width: 50px;
+}
+
+#savedUsersContainer {
+  margin-top: 30px;
+}
